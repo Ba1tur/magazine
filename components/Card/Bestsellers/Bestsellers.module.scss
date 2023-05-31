@@ -1,0 +1,20 @@
+.best{
+  margin: 90px 0 70px;
+
+  &__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 950px) {
+  .best {
+    margin: 50px 0 40px;
+  }
+  }

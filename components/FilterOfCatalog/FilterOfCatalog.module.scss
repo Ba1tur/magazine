@@ -1,0 +1,247 @@
+.FilterOfCatalog {
+  width: 100%;
+  // height: 90vh;
+  padding: 20px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  border: 1px solid #3535361c;
+  box-shadow: 7px 7px 4px 4px  rgba(10, 10, 10, 0.1);
+  input{
+    width: 100%;
+    background: #f9f9f9;
+    padding: 5px 2px 5px 5px;
+    border: 1px solid #999999;
+    outline: none;
+  }
+  h3{
+    margin-bottom: 1.6vh;
+  }
+  .dropdowns{
+    display: flex;
+    flex-direction: column; 
+  }
+  .Select{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+  }
+  .brand{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    .more{
+      margin-top: 1.6vh;
+      cursor: pointer;
+      color: #245462;
+      font-size: 17px;
+    }
+  }
+  .price_range{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .price_block{
+      background-color: #b8b6b681;
+      border-radius: 2px;
+      padding: 8px;
+      width: 6vw;
+      text-align: center;
+    }
+    .line_between_prices{
+      height: 2.6px;
+      width: 1.7vw;
+      background-color: black;
+    }
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .FilterOfCatalog {
+    width: 100%;
+    // height: 90vh;
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: 1px solid #3535361c;
+    box-shadow: 7px 7px 4px 4px  rgba(10, 10, 10, 0.1);
+    h3{
+      margin-bottom: 1.6vh;
+    }
+    .dropdowns{
+      display: flex;
+      flex-direction: column; 
+    }
+    .Select{
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      
+    }
+    .brand{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 16px;
+      .more{
+        margin-top: 1.6vh;
+        cursor: pointer;
+        color: #245462;
+        font-size: 17px;
+      }
+    }
+    .price_range{
+      padding-top: 5px;
+      font-size: 16px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .price_block{
+        background-color: #b8b6b681;
+        border-radius: 2px;
+        padding: 8px;
+        width: 9vw;
+        text-align: center;
+      }
+      .line_between_prices{
+        height: 2.6px;
+        width: 1vw;
+        background-color: black;
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width:768px) {
+  .FilterOfCatalog {
+    width: 100%;
+    height: 100vh;
+    padding: 5px 5px 5px 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: none;
+    box-shadow: none;
+    h3{
+      margin-bottom: 1.6vh;
+    }
+    .dropdowns{
+      display: flex;
+      flex-direction: column; 
+    }
+    .Select{
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      
+    }
+    .brand{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 16px;
+      .more{
+        margin-top: 1.6vh;
+        cursor: pointer;
+        color: #245462;
+        font-size: 17px;
+      }
+    }
+    .price_range{
+      width: 100%;
+      padding-top: 5px;
+      font-size: 12px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .price_block{
+        background-color: #b8b6b681;
+        border-radius: 2px;
+        padding: 8px;
+        width: 30%;
+        text-align: center;
+      }
+      .line_between_prices{
+        height: 2.6px;
+        width: 1.7vw;
+        background-color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:425px) {
+  .FilterOfCatalog {
+    width: 100%;
+    height: 100vh;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border: none;
+    box-shadow: none;
+    h3{
+      margin-bottom: 1.6vh;
+    }
+    .dropdowns{
+      display: flex;
+      flex-direction: column; 
+    }
+    .Select{
+      display: flex;
+      flex-direction: column;
+      gap: 1vh;
+      
+    }
+    .brand{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 16px;
+      .more{
+        margin-top: 1.6vh;
+        cursor: pointer;
+        color: #245462;
+        font-size: 17px;
+      }
+    }
+    .price_range{
+      width: 100%;
+      padding-top: 5px;
+      font-size: 12px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      .price_block{
+        background-color: #b8b6b681;
+        border-radius: 2px;
+        padding: 8px;
+        width: 30%;
+        text-align: center;
+      }
+      .line_between_prices{
+        height: 2.6px;
+        width: 1.7vw;
+        background-color: black;
+      }
+    }
+  }
+}

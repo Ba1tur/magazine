@@ -1,0 +1,33 @@
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 23px;
+
+  &__item{
+    border-bottom: 1px dashed #414141;
+    width: calc(50% - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_dash{
+      border-bottom: 1px dashed #414141;
+    }
+
+    &_text{
+      transform: translateY(4.5px);
+      background: white;
+      padding: 0 5px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .list__item{
+    width: 100%;
+  }
+}

@@ -1,0 +1,256 @@
+.info{
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  margin: 20px 0 50px;
+
+  &__left{
+    display: flex;
+    flex-direction: column;
+    width: calc(55% - 25px);
+
+    &_main{
+    }
+
+    &_bottom{
+      height: 110px;
+    }
+
+  }
+
+  &__right{
+    width: calc(45% - 25px);
+
+    &_title{
+      font-size: 28px;
+      line-height: 33px;
+      margin: 15px 0 10px;
+    }
+
+    &_subtitle{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &_mid{
+      margin: 15px 0 18px;
+      display: flex;
+      align-items: center;
+
+      &_price{
+        font-size: 28px;
+        line-height: 33px;
+      }
+
+      &_btn{
+        border: none;
+        background: #245462;
+        padding: 12px 50px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin: 0 20px 0 31px;
+      }
+
+      &_favourite{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+      }
+    }
+
+    &_categories{
+      display: flex;
+      align-items: center;
+      column-gap: 43px;
+      flex-wrap: wrap;
+      &_box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+      }
+
+      &_subtitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+      }
+
+      &_content{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+
+        &_arrow{
+          position: absolute;
+          right: -25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      &_desc{
+        padding: 7px 10px;
+        position: relative;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+      }
+    }
+
+    &_desc{
+      margin: 20px 0 10px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      &_text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #686868;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .info__right_mid_price{
+    font-size: 25px;
+  }
+  .info__right_mid_btn{
+    padding: 12px 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .info__right_mid_price{
+    font-size: 20px;
+  }
+  .info__right_mid_btn {
+    margin: 0 10px 0 10px;
+    padding: 12px 20px;
+  }
+
+  .info__right_categories{
+    column-gap: 35px;
+  }
+}
+
+@media (max-width: 950px) {
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+
+    &__left{
+      width: 100%;
+    }
+
+    &__right{
+      width: 100%;
+    }
+  }
+  .info{
+    margin: 20px 0 30px;
+  }
+  .info__left_main {
+    height: 450px;
+    padding: 0;
+  }
+ 
+  .info__left_bottom {
+    height: 132px;
+  }
+  .info__right_title {
+    font-size: 35px;
+    margin: 15px 0 15px;
+  }
+  .info__right_mid{
+    margin: 15px 0 20px;
+    display: flex;
+    column-gap: 30px;
+  }
+  .info__right_mid_price{
+    font-size: 30px;
+  }
+  .info__right_mid_btn{
+    padding: 15px 40px;
+  }
+  .info__right_categories{
+    column-gap: 45px;
+  }
+  .info__right_desc{
+    font-size: 16px;
+  }
+  .info__right_desc_text{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .info__left_main{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .info__left_main{
+    height: 300px;
+  }
+  .info__right_mid_favourite{
+
+    span{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width:433px) {
+  .info__right_categories_box{
+    margin-top: 30px;
+  }
+  .info__right_title{
+    font-size: 30px;
+  }
+  .info__right_mid_price{
+    font-size: 25px;
+  }
+  .info__right_mid_btn{
+    margin: 0 1px 0 0px;
+  }
+  .info__right_desc{
+    font-size: 15px;
+  }
+  .info__right_desc_text{
+    font-size: 15px;
+  }
+  .info__left_main{
+    height: 200px;
+  }
+}
+
+.text{
+  color: red;
+}
+
+.font{
+  font-size: 50px;
+}

@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "/divan.png",
+      "imgAlt": "divan_png",
+      "name": "Сан-Паулу Velvet Brown",
+      "type": "Барные стулья",
+      "price": "25 990₽"
+    },
+    {
+      "id": 2,
+      "img": "/obuvpolka.png",
+      "imgAlt": "obuvpolka_png",
+      "name": "Валенсия Beige",
+      "type": "Барные стулья",
+      "price": "10 990₽"
+    },
+    {
+      "id": 3,
+      "img": "/pinkDivan.png",
+      "imgAlt": "pinkDivan_png",
+      "name": "Вилли Pink",
+      "type": "Детский диван",
+      "price": "21 990₽"
+    },
+    {
+      "id": 4,
+      "img": "/polka.png",
+      "imgAlt": "polka_png",
+      "name": "Валенсия Beige",
+      "type": "Барные стулья",
+      "price": "19 990₽"
+    },
+    {
+      "id": 5,
+      "img": "/divan.png",
+      "imgAlt": "divan_png",
+      "name": "Сан-Паулу Velvet Brown",
+      "type": "Барные стулья",
+      "price": "25 990₽"
+    },
+    {
+      "id": 6,
+      "img": "/obuvpolka.png",
+      "imgAlt": "obuvpolka_png",
+      "name": "Валенсия Beige",
+      "type": "Барные стулья",
+      "price": "10 990₽"
+    },
+    {
+      "id": 7,
+      "img": "/pinkDivan.png",
+      "imgAlt": "pinkDivan_png",
+      "name": "Вилли Pink",
+      "type": "Детский диван",
+      "price": "21 990₽"
+    },
+    {
+      "id": 8,
+      "img": "/polka.png",
+      "imgAlt": "polka_png",
+      "name": "Валенсия Beige",
+      "type": "Барные стулья",
+      "price": "19 990₽"
+    },
+	 {
+		"id": 9,
+		"img": "/divan.png",
+		"imgAlt": "divan_png",
+		"name": "Сан-Паулу Velvet Brown",
+		"type": "Барные стулья",
+		"price": "25 990₽"
+	 },
+	 {
+		"id": 10,
+		"img": "/obuvpolka.png",
+		"imgAlt": "obuvpolka_png",
+		"name": "Валенсия Beige",
+		"type": "Барные стулья",
+		"price": "10 990₽"
+	 },
+	 {
+		"id": 11,
+		"img": "/pinkDivan.png",
+		"imgAlt": "pinkDivan_png",
+		"name": "Вилли Pink",
+		"type": "Детский диван",
+		"price": "21 990₽"
+	 },
+	 {
+	  "id": 12,
+	  "img": "/polka.png",
+	  "imgAlt": "polka_png",
+	  "name": "Валенсия Beige",
+	  "type": "Барные стулья",
+	  "price": "19 990₽"
+	}
+  ]
+}

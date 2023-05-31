@@ -1,0 +1,28 @@
+  .main_section__block {
+    width: 100%;
+    padding-top: 60px;
+    .main_section__block__slide_block {
+      position: relative;
+      width: 100%;
+    }
+    .main_section__block__products {
+      padding-top: 20px;
+      h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #414141;
+      }
+		.main_section__block__products__block{
+          justify-content: center;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom:30px ;
+		}
+    }
+  }
+
+
